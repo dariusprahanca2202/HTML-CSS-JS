@@ -1,0 +1,76 @@
+body{
+	 margin:0;
+	 padding:0;
+	 background-image: url("wolf.jpg");
+	 background-size: cover;
+	 background-position: top;
+	 font-family: sans-serif;
+	 background-repeat: no-repeat;
+	}
+.loginbox{
+	width: 350px;
+	height: 300px;
+	background: transparent;
+	color:#fff;
+	top: 34%;
+	left: 38%;
+	position: absolute;
+	box-sizing: border-box;
+}
+h1{
+	margin:0;
+	padding:0 0 20px;
+	text-align: center;
+	font-size: 25px;
+}
+.loginbox p{
+	margin:0;
+	padding:0;
+	text-align: left;
+	font-weight: bold;
+}
+.loginbox input{
+	width: 100%;
+	margin-left: 0;
+	padding:0;
+	
+
+}
+.loginbox input[type="text"],input[type="password"]{
+	border:none;
+	outline: none;
+	background: transparent;
+	height: 40px;
+	border-bottom: 1px solid #fff;
+}
+
+.loginbox input[type="submit"]{
+	font-size: 20px;
+	height: 40px;
+	outline: none;
+	border:none;
+	color: #02182D;
+	margin-top: 3px;
+	border-radius: 20px;
+	background-color: #99ccff;
+	font-weight:bold;
+	transition: 0.8s;
+	position:relative;
+	overflow:hidden;
+
+}
+
+.loginbox input[type="submit"]:hover{
+	cursor:pointer;
+	color: #fff;
+}
+
+.loginbox a{
+	text-decoration:none;
+	font-size:15px;
+	color:#02182D;
+}
+.loginbox a:hover{
+	cursor:pointer;
+	color: #fff;
+}
